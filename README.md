@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/babel-plugin-add-module-exports.png?downloads=true)](https://www.npmjs.com/package/babel-plugin-add-module-exports)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-babel-plugin-add-module-exports_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-babel-plugin-add-module-exports_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/screenCapture.npmPackageListing.svg)
 
