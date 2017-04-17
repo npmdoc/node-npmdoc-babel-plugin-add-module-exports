@@ -1,9 +1,11 @@
 # api documentation for  [babel-plugin-add-module-exports (v0.2.1)](https://github.com/59naga/babel-plugin-add-module-exports#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-babel-plugin-add-module-exports.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-babel-plugin-add-module-exports) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-babel-plugin-add-module-exports.svg)](https://travis-ci.org/npmdoc/node-npmdoc-babel-plugin-add-module-exports)
 #### Fix babel/babel#2212
 
-[![NPM](https://nodei.co/npm/babel-plugin-add-module-exports.png?downloads=true)](https://www.npmjs.com/package/babel-plugin-add-module-exports)
+[![NPM](https://nodei.co/npm/babel-plugin-add-module-exports.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/babel-plugin-add-module-exports)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-babel-plugin-add-module-exports_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-babel-plugin-add-module-exports/build/screenCapture.npmPackageListing.svg)
 
@@ -25,7 +27,6 @@
     },
     "author": {
         "name": "59naga",
-        "email": "i59naga@icloud.com",
         "url": "http://berabou.me"
     },
     "bugs": {
@@ -70,12 +71,10 @@
     "main": "lib",
     "maintainers": [
         {
-            "name": "59naga",
-            "email": "i59naga@icloud.com"
+            "name": "59naga"
         },
         {
-            "name": "lijunle",
-            "email": "lijunle@gmail.com"
+            "name": "lijunle"
         }
     ],
     "name": "babel-plugin-add-module-exports",
@@ -85,7 +84,6 @@
         ]
     },
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/59naga/babel-plugin-add-module-exports.git"
@@ -113,16 +111,6 @@
     "version": "0.2.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module babel-plugin-add-module-exports](#apidoc.module.babel-plugin-add-module-exports)
-
-
-
-# <a name="apidoc.module.babel-plugin-add-module-exports"></a>[module babel-plugin-add-module-exports](#apidoc.module.babel-plugin-add-module-exports)
 
 
 
