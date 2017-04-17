@@ -61,12 +61,128 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.babel-plugin-add-module-exports">module babel-plugin-add-module-exports</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-plugin-add-module-exports.babel-plugin-add-module-exports">
+            function <span class="apidocSignatureSpan"></span>babel-plugin-add-module-exports
+            <span class="apidocSignatureSpan">(_ref)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-plugin-add-module-exports.toString">
+            function <span class="apidocSignatureSpan">babel-plugin-add-module-exports.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.babel-plugin-add-module-exports.toString">module babel-plugin-add-module-exports.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.babel-plugin-add-module-exports.toString.toString">
+            function <span class="apidocSignatureSpan">babel-plugin-add-module-exports.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.babel-plugin-add-module-exports" id="apidoc.module.babel-plugin-add-module-exports">module babel-plugin-add-module-exports</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.babel-plugin-add-module-exports.babel-plugin-add-module-exports" id="apidoc.element.babel-plugin-add-module-exports.babel-plugin-add-module-exports">
+        function <span class="apidocSignatureSpan"></span>babel-plugin-add-module-exports
+        <span class="apidocSignatureSpan">(_ref)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">babel-plugin-add-module-exports = function (_ref) {
+  var types = _ref.types;
+  return {
+    visitor: {
+      Program: {
+        exit: function exit(path) {
+          if (path.BABEL_PLUGIN_ADD_MODULE_EXPORTS) {
+            return;
+          }
+
+          var hasExportDefault = false;
+          var hasExportNamed = false;
+          path.get(&#x27;body&#x27;).forEach(function (path) {
+            if (path.isExportDefaultDeclaration()) {
+              hasExportDefault = true;
+              return;
+            }
+
+            if (path.isExportNamedDeclaration()) {
+              if (path.node.specifiers.length === 1 &#x26;&#x26; path.node.specifiers[0].exported.name === &#x27;default&#x27;) {
+                hasExportDefault = true;
+              } else {
+                hasExportNamed = true;
+              }
+              return;
+            }
+          });
+
+          if (hasExportDefault &#x26;&#x26; !hasExportNamed) {
+            path.pushContainer(&#x27;body&#x27;, [types.expressionStatement(types.assignmentExpression(&#x27;=&#x27;, types.memberExpression(types.identifier
+(&#x27;module&#x27;), types.identifier(&#x27;exports&#x27;)), types.memberExpression(types.identifier(&#x27;exports&#x27;), types.stringLiteral(&#x27;default&#x27;), true
+)))]);
+          }
+
+          path.BABEL_PLUGIN_ADD_MODULE_EXPORTS = true;
+        }
+      }
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.babel-plugin-add-module-exports.toString" id="apidoc.element.babel-plugin-add-module-exports.toString">
+        function <span class="apidocSignatureSpan">babel-plugin-add-module-exports.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.babel-plugin-add-module-exports.toString" id="apidoc.module.babel-plugin-add-module-exports.toString">module babel-plugin-add-module-exports.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.babel-plugin-add-module-exports.toString.toString" id="apidoc.element.babel-plugin-add-module-exports.toString.toString">
+        function <span class="apidocSignatureSpan">babel-plugin-add-module-exports.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
