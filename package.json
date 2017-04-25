@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "babel-plugin-add-module-exports",
-    "description": "api documentation for [babel-plugin-add-module-exports (v0.2.1)](https://github.com/59naga/babel-plugin-add-module-exports#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-babel-plugin-add-module-exports.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-babel-plugin-add-module-exports) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-babel-plugin-add-module-exports.svg)](https://travis-ci.org/npmdoc/node-npmdoc-babel-plugin-add-module-exports)",
+    "description": "#### basic api documentation for  [babel-plugin-add-module-exports (v0.2.1)](https://github.com/59naga/babel-plugin-add-module-exports#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-babel-plugin-add-module-exports.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-babel-plugin-add-module-exports) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-babel-plugin-add-module-exports.svg)](https://travis-ci.org/npmdoc/node-npmdoc-babel-plugin-add-module-exports)",
     "devDependencies": {
         "babel-plugin-add-module-exports": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",

@@ -1,4 +1,7 @@
-# api documentation for  [babel-plugin-add-module-exports (v0.2.1)](https://github.com/59naga/babel-plugin-add-module-exports#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-babel-plugin-add-module-exports.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-babel-plugin-add-module-exports) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-babel-plugin-add-module-exports.svg)](https://travis-ci.org/npmdoc/node-npmdoc-babel-plugin-add-module-exports)
+# npmdoc-babel-plugin-add-module-exports
+
+#### basic api documentation for  [babel-plugin-add-module-exports (v0.2.1)](https://github.com/59naga/babel-plugin-add-module-exports#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-babel-plugin-add-module-exports.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-babel-plugin-add-module-exports) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-babel-plugin-add-module-exports.svg)](https://travis-ci.org/npmdoc/node-npmdoc-babel-plugin-add-module-exports)
+
 #### Fix babel/babel#2212
 
 [![NPM](https://nodei.co/npm/babel-plugin-add-module-exports.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/babel-plugin-add-module-exports)
@@ -108,7 +111,8 @@
         "watch:src": "babel src --out-dir lib --watch",
         "watch:test": "babel test --out-dir spec --ignore test/spec.js --watch"
     },
-    "version": "0.2.1"
+    "version": "0.2.1",
+    "bin": {}
 }
 ```
 
